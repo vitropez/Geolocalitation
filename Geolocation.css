@@ -1,14 +1,21 @@
 #ubicacion{
     width: 48%;
-    background-color: green;
+    background-image: url("me.jpg");
+    background-size: cover;
    height: 1000px;
     display:block;
     float:left;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    background-position: center;
+
+
 
 }
 body{
 
-    background-color: red;
+    background-color: black;
 }
 #ShowMap{
     width: 48%;
@@ -17,11 +24,38 @@ body{
     display:block;
     float:left;
 
+
+}
+#map{
+    width: 100%;
+    height: 50%;
+}
+#display{
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: white;
+}
+tr td{
+   border-top:2px solid #000;
+    width: 50%;
+}
+#obtener{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left:  40px;
 }
 
 
 
 
-iframe{
-    visibility: hidden;
-}
+
+
