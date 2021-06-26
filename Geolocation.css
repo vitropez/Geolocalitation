@@ -1,5 +1,5 @@
 #ubicacion{
-    width: 48%;
+    width: 50%;
     background-image: url("me.jpg");
     background-size: cover;
    height: 1000px;
@@ -18,13 +18,11 @@ body{
     background-color: black;
 }
 #ShowMap{
-    width: 48%;
+    width: 50%;
     background-color: yellow;
     height: 1000px;
     display:block;
     float:left;
-
-
 }
 #map{
     width: 100%;
@@ -35,6 +33,7 @@ body{
     border: 2px solid #000;
     border-radius: 5px;
     background-color: white;
+
 }
 tr td{
    border-top:2px solid #000;
@@ -52,6 +51,20 @@ tr td{
     margin: 4px 2px;
     cursor: pointer;
     margin-left:  40px;
+    border-radius: 10px;
+    text-shadow: 1px 5px 2px #000;
+    box-shadow: 10px 25px 5px #333;
+}
+@media screen and (max-width: 1000px){
+    #display{
+        width: 180px;
+    }
+    #logo{
+        width: 300px;
+    }
+    #ubicacion{
+        background-size: cover;
+    }
 }
 
 
